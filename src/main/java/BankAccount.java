@@ -12,24 +12,63 @@ public class BankAccount {
     /*
      * You may want to use this to distinguish between different kinds of accounts.
      */
+    /**
+     *
+     */
     public enum BankAccountType {
+        /**
+         *
+         */
         CHECKINGS,
+        /**
+         *
+         */
         SAVINGS,
+        /**
+         *
+         */
         STUDENT,
+        /**
+         *
+         */
         WORKPLACE
     }
 
+    /**
+     *
+     */
     private int accountNumber;
+    /**
+     *
+     */
+    @SuppressWarnings("checkstyle:visibilitymodifier")
     public BankAccountType accountType;
+    /**
+     *
+     */
     private double accountBalance;
+    /**
+     *
+     */
     private String ownerName;
+    /**
+     *
+     */
+    @SuppressWarnings("checkstyle:visibilitymodifier")
     public double interestRate;
+    /**
+     *
+     */
     private double interestEarned;
 
+    /**
+     * @param name
+     * \
+     * @param accountCategory
+     * \
+     */
     public BankAccount(final String name, final BankAccountType accountCategory) {
-        /*
-         * Implement this function
-         */
+
     }
 
     /*

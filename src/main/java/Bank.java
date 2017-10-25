@@ -34,7 +34,6 @@ public class Bank {
      * @return boolean
      */
     public boolean withdrawMoney(final BankAccount bankAccount, final double amount) {
-
         return false;
     }
 
@@ -83,6 +82,7 @@ public class Bank {
      */
 
     public void changeOwnerName(final BankAccount bankAccount, final String name) {
+        bankAccount.setName(name);
         /*
          * Implement this function
          */

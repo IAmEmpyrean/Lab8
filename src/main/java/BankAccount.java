@@ -68,9 +68,17 @@ public class BankAccount {
      * \
      */
     public BankAccount(final String name, final BankAccountType accountCategory) {
-
+        ownerName = name;
+        accountType = accountCategory;
     }
 
+    /**
+     * @param name
+     * \
+     */
+    public void setName(final String name) {
+        ownerName = name;
+    }
     /*
      * Implement getters and setters as appropriate for private variables.
      */
